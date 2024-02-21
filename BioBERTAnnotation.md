@@ -8,11 +8,10 @@ BioBERT has been pre-trained on vast biomedical literature, including PubMed abs
 
 1. **Dataset Preparation**: Prepare a dataset with sentences from clinical notes labeled for the entities of interest. If such a dataset is not readily available, you might start with a smaller manually annotated dataset and gradually expand it using the predictions from BioBERT as you fine-tune the model.
 
-2. **Fine-tuning BioBERT**: Use the Hugging Face `transformers` library to fine-tune BioBERT on your NER task. You will need to adjust the model to output named entity labels instead of its default settings.
+2. **Fine-tuning BioBERT**: Use the Hugging Face `transformers` library to fine-tune BioBERT on your NER task. Probably will need to adjust the model to output named entity labels instead of its default settings.
 
-### Example Code for Fine-tuning BioBERT on a NER Task
+### Example Code for Fine-tuning BioBERT on a NER Task for biomedical entities
 
-First, you need to install the necessary libraries if you haven't already:
 ```bash
 pip install transformers torch
 ```
