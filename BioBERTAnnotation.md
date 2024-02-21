@@ -1,4 +1,4 @@
-An example of using domain-specific language model pre-trained on biomedical text, to automate the extraction of relevant information such as antipsychotic medications, schizophrenia (schizo), and bipolar disorder (BPD) from clinical notes. This approach can significantly reduce the manual effort required for annotation and improve the scalability of your system. Here's how you could technically implement this:
+An example of using domain-specific language model pre-trained on biomedical text, to automate the extraction of relevant information such as antipsychotic medications, schizophrenia (schizo), and bipolar disorder (BPD) from clinical notes. This approach can significantly reduce the manual effort required for annotation and improve the scalability of your system.
 
 ### Step 1: Preparing BioBERT for Named Entity Recognition (NER)
 
